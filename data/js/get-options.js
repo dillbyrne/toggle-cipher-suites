@@ -1,0 +1,41 @@
+self.port.on("buildui",function(cipher_suites){
+
+  var list = document.getElementById("list");
+  
+  for (var i = 0; i< cipher_suites.length; i++){  
+    var listItem = document.createElement("li");
+    var textNode = document.createTextNode(cipher_suites[i].slice(14));
+    var select = document.createElement("select");
+    var option1 = document.createElement("option");
+    var option2 = document.createElement("option");
+
+    select.setAttribute("id","select"+i);
+    option1.setAttribute("value","enabled");
+    option1.appendChild(document.createTextNode("enabled"));
+    option2.setAttribute("value","disabled");
+    option2.appendChild(document.createTextNode("disabled"));
+    
+    select.appendChild(option1);
+    select.appendChild(option2);
+    
+    listItem.appendChild(textNode);
+    listItem.appendChild(select);
+    list.appendChild(listItem);
+  }
+
+});
+
+self.port.on("show",function(states){
+
+  for (var i = 0; i < states.length; i++){
+    
+    var cipher  = document.getElementById("select"+i);
+    
+  if (states[i] == true) 
+      cipher.selectedIndex = 0;
+    else
+      cipher.selectedIndex = 1;
+    
+  }
+
+});
