@@ -18,8 +18,14 @@ self.port.on("buildui",function(cipher_suites){
     select.appendChild(option1);
     select.appendChild(option2);
     
-    listItem.appendChild(textNode);
-    listItem.appendChild(select);
+    div = document.createElement("div");
+    span = document.createElement("span");
+    
+    span.appendChild(textNode);
+    div.appendChild(span);
+    div.appendChild(select);
+    listItem.appendChild(div);
+
     list.appendChild(listItem);
   }
 

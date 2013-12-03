@@ -4,16 +4,30 @@
     <style type="text/css" media="all">
       body {
         font-size: 12px;
+      }
+      #title{
+	text-align:center;
+	font-weight:bold;
       } 
       ul{
 	list-style:none;
-	padding:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	padding-top:10px;
 	margin:0px;
       }
+      li div { 
+	text-align:right; 
+      }
+      li div span { 
+	float:left; 
+      }
+
     </style>
   </head>
   <body>
-    <b>Choose Cipher Suites</b>
+    <div id="title">Choose Cipher Suites</div>
     <ul id="list"></ul>
   </body>
 </html>

@@ -40,7 +40,5 @@ This firefox addon provides a quick way to enable or disable various ssl3 cipher
 -  rsa_des_ede3_sha
 -  rsa_fips_des_ede3_sha
 
-# Note #
 
-This addon is still in development and is not considered ready for use.
 
