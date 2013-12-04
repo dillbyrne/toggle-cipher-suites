@@ -1,4 +1,4 @@
-self.port.on("buildui",function(cipher_suites){
+self.port.once("buildui",function(cipher_suites){
 
   var list = document.getElementById("list");
   
@@ -10,9 +10,7 @@ self.port.on("buildui",function(cipher_suites){
     var option2 = document.createElement("option");
 
     select.setAttribute("id","select"+i);
-    option1.setAttribute("value","enabled");
     option1.appendChild(document.createTextNode("enabled"));
-    option2.setAttribute("value","disabled");
     option2.appendChild(document.createTextNode("disabled"));
     
     select.appendChild(option1);
