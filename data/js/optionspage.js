@@ -11,3 +11,9 @@ document.body.addEventListener("change", function(e) {
 
 },false);
 
+document.body.addEventListener("click", function(e) {
+
+	self.port.emit("click",e.target.id);    
+
+},false);
+

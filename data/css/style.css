@@ -5,6 +5,9 @@ body {
   text-align:center;
   font-weight:bold;
 }   
+#btnContainer{
+  text-align:center;
+}
 ul{ 
   list-style:none;
   padding-left:0px;
