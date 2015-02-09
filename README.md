@@ -33,4 +33,6 @@ This firefox addon provides a quick way to enable or disable various ssl3 cipher
 - rsa_rc4_128_sha
 - rsa_seed_sha
 
+# Tests #
 
+The addon includes SSL/TLS tests for Qualys SSL Labs and How's My SSL ?
