@@ -1,12 +1,13 @@
 {
   "name": "toggle-cipher-suites",
   "fullName": "Toggle Cipher Suites",
-  "id": "jid1-BJLRspk01OAAzg",
+  "id": "jid1-BJLRspk01OAAzg@jetpack",
   "description": "This addon allows users to toggle the various ssl3 cipher suites",
   "author": "dbyrne",
   "license": "GNU GPL 3+",
   "permissions": {"private-browsing": true},
   "icon":"data/images/icon.png",
   "icon64":"data/images/icon64.png",
-  "version": "0.6"
+  "version": "0.6",
+  "main":"lib/main.js"
 }
