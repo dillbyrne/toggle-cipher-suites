@@ -17,7 +17,7 @@ ul{
   padding-bottom:0px;
   padding-top:0px;
   margin:0px;
-	border: 1px solid #ccc;
+	border: 1px solid #e8e8e8;
 }   
 li div { 
   text-align:right; 
@@ -27,13 +27,9 @@ li div span {
 }   
 
 li:nth-child(odd) {
-	background-color: #ccc;
+	background-color: #e8e8e8;
 }
 
 li:nth-child(even) {
 	background-color: white;
-}
-
-span {
-	margin-top: 7px;
 }

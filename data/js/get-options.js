@@ -16,8 +16,8 @@ self.port.once("buildui",function(cipher_suites){
     select.appendChild(option1);
     select.appendChild(option2);
     
-    div = document.createElement("div");
-    span = document.createElement("span");
+    var div = document.createElement("div");
+    var span = document.createElement("span");
     
     span.appendChild(textNode);
     div.appendChild(span);
