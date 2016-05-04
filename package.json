@@ -6,7 +6,7 @@
   "author": "dbyrne",
   "license": "GNU GPL 3+",
   "permissions": {"private-browsing": true},
-  "icon":{"48":"icon.png"},
+  "icon":{"48":"resource://jid1-BJLRspk01OAAzg-at-jetpack/data/images/icon.png"},
   "version": "1.0",
   "main":"lib/main.js"
 }
