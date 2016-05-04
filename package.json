@@ -7,6 +7,6 @@
   "license": "GNU GPL 3+",
   "permissions": {"private-browsing": true},
   "icon":{"48":"icon.png"},
-  "version": "0.9",
+  "version": "1.0",
   "main":"lib/main.js"
 }
