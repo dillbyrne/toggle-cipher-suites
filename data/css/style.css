@@ -1,5 +1,6 @@
 body {
   font-size: 12px;
+	background-color: white;
 }   
 #title{
   text-align:center;
@@ -7,14 +8,16 @@ body {
 }   
 #btnContainer{
   text-align:center;
+	padding-bottom:10px;
 }
 ul{ 
   list-style:none;
   padding-left:0px;
   padding-right:0px;
   padding-bottom:0px;
-  padding-top:10px;
+  padding-top:0px;
   margin:0px;
+	border: 1px solid #ccc;
 }   
 li div { 
   text-align:right; 
@@ -23,3 +26,14 @@ li div span {
   float:left; 
 }   
 
+li:nth-child(odd) {
+	background-color: #ccc;
+}
+
+li:nth-child(even) {
+	background-color: white;
+}
+
+span {
+	margin-top: 7px;
+}
