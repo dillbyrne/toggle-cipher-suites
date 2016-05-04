@@ -33,3 +33,8 @@ This firefox addon provides a quick way to enable or disable various ssl3 cipher
 # Tests 
 
 The addon includes SSL/TLS tests for Qualys SSL Labs and How's My SSL ?
+
+# Icons
+
+The icon is by ![Crumbs + Pixels](https://www.iconfinder.com/Ikonografia) 
+icon license is Creative Commons (Attribution 3.0 Unported) 
