@@ -5,30 +5,11 @@ This firefox addon provides a quick way to enable or disable various ssl3 cipher
 
 # Screenshot
 
-![tcs](https://cloud.githubusercontent.com/assets/2903711/14580575/18425f3c-03c9-11e6-8edd-53584346920a.png)
+![tcs](https://addons.cdn.mozilla.net/user-media/previews/full/173/173818.png?modified=1462391942)
 
 
 # Cipher Suites  
-
-	Last updated for firefox 45
-
--	security.ssl3.dhe_rsa_aes_128_sha
--	security.ssl3.dhe_rsa_aes_256_sha
--	security.ssl3.ecdhe_ecdsa_aes_128_gcm_sha256
--	security.ssl3.ecdhe_ecdsa_aes_128_sha
--	security.ssl3.ecdhe_ecdsa_aes_256_sha
--	security.ssl3.ecdhe_ecdsa_chacha20_poly1305_sha256
--	security.ssl3.ecdhe_ecdsa_rc4_128_sha
--	security.ssl3.ecdhe_rsa_aes_128_gcm_sha256
--	security.ssl3.ecdhe_rsa_aes_128_sha
--	security.ssl3.ecdhe_rsa_aes_256_sha
--	security.ssl3.ecdhe_rsa_chacha20_poly1305_sha256
--	security.ssl3.ecdhe_rsa_rc4_128_sha
--	security.ssl3.rsa_aes_128_sha
--	security.ssl3.rsa_aes_256_sha
--	security.ssl3.rsa_des_ede3_sha
--	security.ssl3.rsa_rc4_128_md5
--	security.ssl3.rsa_rc4_128_sha
+Supported cipher suites are automatically updated when the browser is updated. 
 
 # Tests 
 
