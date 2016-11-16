@@ -5,8 +5,11 @@
   "description": "This addon allows users to toggle the various ssl3 cipher suites",
   "author": "dbyrne",
   "license": "GNU GPL 3+",
-  "permissions": {"private-browsing": true},
+  "permissions": {
+	  "private-browsing": true,
+	  "miltiprocess": true
+  },
   "icon":{"48":"resource://jid1-BJLRspk01OAAzg-at-jetpack/data/images/icon.png"},
-  "version": "1.1",
+  "version": "1.2",
   "main":"lib/main.js"
 }
